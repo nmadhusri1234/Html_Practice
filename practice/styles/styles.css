@@ -1,0 +1,23 @@
+.item {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /* div is block level element to display side by side use display : inline
+    width and height is not applied here because they are inline elements 
+    but for inline-block width and height can be applied*/
+    /* display : inline-block; */
+    /* instead of using inline block we use flex */
+}
+
+ .container {
+    border:10px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+     justify-content: center;
+    align-items: center;
+} 
