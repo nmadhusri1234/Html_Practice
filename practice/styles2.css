@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    list-style-type:none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.menu{
+    display: none;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+a:hover{
+    background-color: rgb(182, 182, 182);
+    padding: 5px 10px;
+}
+a:active{
+    background-color: gray;
+}
+a:visited{
+    color: greenyellow;
+}
+
+@media (max-width:600px) {
+    .menu{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
